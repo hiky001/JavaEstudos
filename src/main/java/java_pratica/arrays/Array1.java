@@ -1,6 +1,6 @@
 package java_pratica.arrays;
 
-public class Arrays1 {
+public class Array1 {
     public static void main(String[] args) {
         int [] idade = new int[3];
 
