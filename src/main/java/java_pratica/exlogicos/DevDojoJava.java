@@ -1,4 +1,4 @@
-package java_pratica;
+package java_pratica.exlogicos;
 
 public class DevDojoJava {
 

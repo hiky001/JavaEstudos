@@ -1,16 +1,19 @@
-package java_pratica;
+package java_pratica.exlogicos;
 
 public class ExerciciosJuntos {
 
     public static void main(String[] args) {
-        ex4();
+        ex1(6, 4);
 
     }
 
+    /**
+     * Printa dois numeros, do menor para o maior
+     * @param valor1 Passe o primeiro valor
+     * @param valor2 Passe o segundo valor
+     */
 
-    public static void ex1(){
-        int valor1 = 8;
-        int valor2 = 3;
+    public static void ex1(int valor1, int valor2){
 
         if (valor1 > valor2){
             System.out.println(valor2 + ", " + valor1);
@@ -20,11 +23,16 @@ public class ExerciciosJuntos {
         }
     }
 
-    public static void ex2(){
+    /**
+     * Printa o maior dentre os tres numeros apresentados
+     * @param n1 Passe o primeiro número de parâmetro
+     * @param n2 Passe o segundo número de parâmetro
+     * @param n3 Passe o terceiro número de parâmetro
+     */
 
-        int n1 = 10;
-        int n2 = 13;
-        int n3 = 6;
+    private static void ex2(int n1, int n2, int n3){
+
+
         System.out.println(n1 + ", " + n2 + ", " + n3);
 
         if (n1 > n2 && n1 > n3){
@@ -38,12 +46,14 @@ public class ExerciciosJuntos {
         }
     }
 
+    /**
+     * Soma e printa os dois maiores valores
+     * @param valor1 De o valor1
+     * @param valor2  De o valor2
+     * @param valor3 De o valor3
+     */
 
-    public static void ex3(){
-
-        int valor1 = 12;
-        int valor2 = 3;
-        int valor3 = 7;
+    public static void ex3(int valor1, int valor2, int valor3){
 
         if (valor1 > valor2 & valor1 > valor3 & valor2 > valor3){
             System.out.println("O maior número é: " + (valor1 + valor2));
@@ -55,6 +65,10 @@ public class ExerciciosJuntos {
             System.out.println("O maior número é: " + (valor1 + valor3));
         }
     }
+
+    /**
+     * Printa a sequência fibonacci 11 vezes
+     */
 
     public static void ex5(){
 
@@ -72,11 +86,19 @@ public class ExerciciosJuntos {
         }
     }
 
-    public static void ex4(){
+    /**
+     * Equação de segundo grau, descobre o valor de delta, passando os parametros a, b, c da equação de
+     * segundo grau e printa se delta é igual, maior ou menor que 0
+     * @param a Passe o valor de a na equação ax²+bx+c=0
+     * @param b Passe o valor de b na equação ax²+bx+c=0
+     * @param c Passe o valor de c na equação ax²+bx+c=0
+     */
 
-        double a = 2;
-        double b = 6;
-        double c = 4;
+    public static void ex4(double a, double b, double c){
+
+//        double a = 2;     Ex's de valores de a, b, c
+//        double b = 6;
+//        double c = 4;
 
         double delta = (b * b) - 4 * a * c;
 
